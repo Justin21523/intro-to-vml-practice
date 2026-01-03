@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.venv/
+.env
+.envrc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors
+.vscode/
+.idea/
+
+# Project outputs / caches
+.cache/
+runs/
+data/cache/
+data/index/
+data/models/
+data/reports/
+data/experiments/
+data/splits/
+
+# Model artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Large datasets / archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
